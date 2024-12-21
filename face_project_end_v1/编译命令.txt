@@ -1,0 +1,1 @@
+aarch64-linux-gnu-g++   *.cc  -o main   --sysroot=/usr/local/arm/1808-sdk-v1.3.1/host/aarch64-buildroot-linux-gnu/sysroot -I./rockx-rk1808-Linux/include   -L./rockx-rk1808-Linux/lib64  -lrockx    -L./  -lDRMwrap  -ldrm
